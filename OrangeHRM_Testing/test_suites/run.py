@@ -3,15 +3,17 @@ import pytest
 test_dirs = [
     'login',
     'admin',
-    'buzz',
+    'pim',
+    'leave',
+    'time',
+    'recruitment',
+    'myInfo',
+    'performance',
     'dashboard',
     'directory',
-    'leave',
-    'myinfo',
-    'performance',
-    'pim',
-    'recruitment',
-    'time'
+    'maintenance',
+    'claim',
+    'buzz',
 ]
 
 pytest.main(test_dirs + ["-v", "--html=report.html", "--self-contained-html"])
